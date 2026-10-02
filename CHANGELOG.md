@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.4.0 — Online lobbies
+
+- **Play online with friends** — create an online lobby and share its **join code**; friends join with the code
+  or pick a public lobby from the list. Connections go through Unity Relay, so nobody has to forward ports.
+- **Public or private lobbies** — public lobbies appear in everyone's list; private ones are join-code only.
+- **Lobby room** — every player's role, side and **Ready** state; pick your role with the **ROLE** button.
+  The host can only start once everyone is ready, and everyone loads into the match together.
+- **Roles are shared** — other players now see the role you picked.
+- **Drop-outs handled** — a player who quits or loses connection is removed from the match and the lobby, and
+  their slot opens again. If the host leaves, everyone is told and the lobby closes.
+- LAN lobbies and joining by IP address still work.
+- Version 0.4.0 can't join older versions (and the other way round).
+
 ## v0.3.0 — Grenades, first person and a squad that rides with you
 
 - **First-person mode** — press **P** (or Settings → View) to switch between third and first person. In first

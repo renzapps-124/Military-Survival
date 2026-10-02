@@ -16,7 +16,7 @@ PvE operation on an enemy-held jungle island where stealth and all-out assault b
 
 ## Download & play
 
-1. Go to **[Releases](../../releases/latest)** and download the latest **`MilitarySurvival-v0.3.0-Windows.zip`**.
+1. Go to **[Releases](../../releases/latest)** and download the latest **`MilitarySurvival-v0.4.0-Windows.zip`**.
 2. **Extract the ZIP** (right-click → *Extract All…*). Keep all the files together — the game won't start from
    inside the ZIP or if you move the `.exe` on its own.
 3. Open the extracted `MilitarySurvival` folder and run **`MilitarySurvival.exe`**.
@@ -36,6 +36,17 @@ No installer, no account. To uninstall, delete the folder.
 - **Operation: Jungle Hunt** (co-op, 1–6 players) — parachute onto a 1 km jungle island held by 250 soldiers,
   or into **Port Savanne**, an occupied harbour city. Sneak or go loud, take out radios before they call
   reinforcements, gather intel, find and take down the enemy commander, then extract by helicopter.
+
+## Playing together
+
+**Main menu → Multiplayer.** Online play needs an internet connection; no port forwarding.
+
+1. **Host:** create a lobby (*Online*, public or private). Share the **join code** shown in the lobby.
+2. **Friends:** type the join code and press **Join**, or pick a public lobby from the list.
+3. Everyone picks a role (and a side in Team Deathmatch) and presses **Ready**.
+4. The host chooses the mode and map and starts the match once everyone is ready.
+
+Players on the same network can still use *LAN only* lobbies or join by IP address.
 
 ## Controls
 
@@ -87,10 +98,9 @@ Swimming is automatic in deep water (**Shift** swims faster); you can't use weap
 | GPU | DirectX 11 / 12, 2 GB VRAM | GTX 1060 / RX 580 class, 4 GB VRAM |
 | Disk | 1 GB free | SSD |
 
-Requirements are estimates for this early build. 64-bit Windows only. Co-op uses a direct connection (host UDP port **27960**); the host may need to allow the game
-through Windows Firewall.
+Requirements are estimates for this early build. 64-bit Windows only.
 
-## Known issues (v0.3.0)
+## Known issues (v0.4.0)
 
 - The game isn't code-signed, so Windows SmartScreen shows a warning on first launch.
 - Co-op has been tested with 2 players; 6-player sessions haven't been load-tested yet.
