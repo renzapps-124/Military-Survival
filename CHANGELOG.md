@@ -1,5 +1,31 @@
 # Changelog
 
+## v0.3.0 — Grenades, first person and a squad that rides with you
+
+- **First-person mode** — press **P** (or Settings → View) to switch between third and first person. In first
+  person you see your own gun and gloved hands; aiming brings the gun up to the centre, and scopes work as before.
+- **Grenades**
+  - Hold **G** to aim with a visible throw arc, release to throw, **Right mouse** to cancel.
+  - The **mouse wheel** picks the type: frag, sticky, flash, smoke or incendiary.
+  - New grenade models.
+- **Building damage** — explosions dent and scorch walls and knock chunks off them.
+- **Your squad rides along** — when you get into a vehicle, your teammates run over and jump in. One mans the
+  vehicle's gun, and the passengers shoot at enemies from their seats while you drive (except inside armoured
+  vehicles).
+- **Crawling** — a proper elbows-and-knees army crawl when prone, with a sideways crawl when you strafe.
+- **Jungle Hunt**
+  - Brighter, more readable nights, a soft outline on soldiers in the dark, and lights along the roads and at the
+    objective.
+  - The parachute drop steers you away from the sea and the map edge, and you land facing inland.
+  - Less HUD clutter: names over soldiers only up close, shorter radio messages, and the HUD is introduced bit by
+    bit at the start.
+- **Fixes**
+  - Enemies no longer get stuck on scenery, which could stop a Survival wave from ending (Military Base especially).
+  - Tower snipers now shoot back. If a wave's last few enemies are hiding, they're marked on your map.
+  - Floating pickup and station labels no longer fill the screen up close or in a scope.
+  - Debris from explosions no longer flies across the map.
+  - Small HUD fixes (combo counter, long callsigns).
+
 ## v0.2.0 — Port Savanne, cover and flanking
 
 - **New Jungle Hunt map: Port Savanne** — an occupied harbour city with enterable buildings and furnished rooms,

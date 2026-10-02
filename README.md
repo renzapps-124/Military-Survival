@@ -2,7 +2,7 @@
 
 **Fight · Survive · Improve**
 
-A third-person military arcade shooter for Windows. Hold the line against escalating waves with your AI squad,
+A military arcade shooter for Windows, played in third or first person. Hold the line against escalating waves with your AI squad,
 take on boss fights and capture the flag, or drop into **Operation: Jungle Hunt** — a free-drop, 1–6 player co-op
 PvE operation on an enemy-held jungle island where stealth and all-out assault both work.
 
@@ -16,7 +16,7 @@ PvE operation on an enemy-held jungle island where stealth and all-out assault b
 
 ## Download & play
 
-1. Go to **[Releases](../../releases/latest)** and download the latest **`MilitarySurvival-v0.2.0-Windows.zip`**.
+1. Go to **[Releases](../../releases/latest)** and download the latest **`MilitarySurvival-v0.3.0-Windows.zip`**.
 2. **Extract the ZIP** (right-click → *Extract All…*). Keep all the files together — the game won't start from
    inside the ZIP or if you move the `.exe` on its own.
 3. Open the extracted `MilitarySurvival` folder and run **`MilitarySurvival.exe`**.
@@ -49,13 +49,14 @@ No installer, no account. To uninstall, delete the folder.
 | Crouch / prone | **C** / **Z** (**Shift** while crouched: crouch run) |
 | Take cover / run to the cover under the crosshair | **Left Ctrl** |
 | In cover: aim over / round it · switch side · leave | **Right mouse** · **V** · **Left Ctrl** |
-| Grenade | **G** |
+| Grenade: hold to aim, release to throw · change type · cancel | **G** (hold) · **mouse wheel** · **Right mouse** |
 | Interact · enter vehicle · revive | **E** |
 | Drag a wounded teammate | **T** |
 | Role abilities | **F** / **X** |
 | Support (airstrike) | **Q** |
 | Squad commands | **H** |
 | Swap camera shoulder | **V** |
+| First / third person | **P** |
 | Show the whole HUD | **Tab** (hold) |
 | Pause / back | **Esc** |
 
@@ -89,7 +90,7 @@ Swimming is automatic in deep water (**Shift** swims faster); you can't use weap
 Requirements are estimates for this early build. 64-bit Windows only. Co-op uses a direct connection (host UDP port **27960**); the host may need to allow the game
 through Windows Firewall.
 
-## Known issues (v0.2.0)
+## Known issues (v0.3.0)
 
 - The game isn't code-signed, so Windows SmartScreen shows a warning on first launch.
 - Co-op has been tested with 2 players; 6-player sessions haven't been load-tested yet.
